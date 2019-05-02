@@ -16,8 +16,8 @@
 #
 
 
-Name:           yast2-caasp
-Version:        4.1.2
+Name:           yast2-hostname
+Version:        4.1.0
 Release:        0
 
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
@@ -45,10 +45,10 @@ BuildArch:      noarch
 Summary:        YaST2 - CaaSP Module
 License:        GPL-2.0-only
 Group:          System/YaST
-Url:            https://github.com/yast/yast-caasp
+Url:            https://github.com/JoseSuse/yast-hostname
 
 %description
-Containers as a Service Platform (CaaSP) and openSUSE Kubic specific module.
+A model for change your hostname 
 
 %prep
 %setup -n %{name}-%{version}
@@ -64,17 +64,16 @@ Containers as a Service Platform (CaaSP) and openSUSE Kubic specific module.
 %files
 %defattr(-,root,root)
 %{yast_clientdir}/*.rb
-%dir %{yast_libdir}/y2caasp
-%{yast_libdir}/y2caasp/*.rb
-%dir %{yast_libdir}/y2caasp/cfa
-%{yast_libdir}/y2caasp/cfa/*.rb
-%dir %{yast_libdir}/y2caasp/widgets
-%{yast_libdir}/y2caasp/widgets/*.rb
-%dir %{yast_libdir}/y2caasp/clients
-%{yast_libdir}/y2caasp/clients/*.rb
+%dir %{yast_libdir}/y2hostname
+%{yast_libdir}/y2hostname/*.rb
+%dir %{yast_libdir}/y2hostname/cfa
+%{yast_libdir}/y2hostname/cfa/*.rb
+%dir %{yast_libdir}/y2hostname/widgets
+%{yast_libdir}/y2hostname/widgets/*.rb
+%dir %{yast_libdir}/y2hostname/clients
+%{yast_libdir}/y2hostname/clients/*.rb
 %dir %{yast_libdir}/y2system_role_handlers
 %{yast_libdir}/y2system_role_handlers/*.rb
 %doc %{yast_docdir}
-%license COPYING
 
 %changelog
