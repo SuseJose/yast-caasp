@@ -22,18 +22,3 @@ To get the source code, clone the GitHub repository:
 
 If you want to contribute into the project you can
 [fork](https://help.github.com/articles/fork-a-repo/) the repository and clone your fork.
-
-
-Development
-===========
-
-This module is developed as part of YaST. See the
-[development documentation](http://yastgithubio.readthedocs.org/en/latest/development/).
-
-
-Contact
-=======
-
-If you have any question, feel free to ask at the [development mailing
-list](http://lists.opensuse.org/yast-devel/) or at the
-[#yast](https://webchat.freenode.net/?channels=%23yast) IRC channel on freenode.
