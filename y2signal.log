@@ -1,0 +1,23 @@
+=== 2019-05-02 14:18:31 +0100 ===
+YaST got signal INT.
+Backtrace (only ruby one):
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/y2start_helpers.rb:97:in `block in signal_log_open'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/y2start_helpers.rb:97:in `open'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/y2start_helpers.rb:97:in `signal_log_open'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/y2start_helpers.rb:77:in `signal_handler'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/y2start_helpers.rb:68:in `block (2 levels) in setup_signals'
+/usr/lib64/ruby/gems/2.6.0/gems/byebug-11.0.1/lib/byebug/remote/server.rb:43:in `sleep'
+/usr/lib64/ruby/gems/2.6.0/gems/byebug-11.0.1/lib/byebug/remote/server.rb:43:in `wait'
+/usr/lib64/ruby/gems/2.6.0/gems/byebug-11.0.1/lib/byebug/remote/server.rb:43:in `block in start'
+/usr/lib64/ruby/gems/2.6.0/gems/byebug-11.0.1/lib/byebug/remote/server.rb:43:in `synchronize'
+/usr/lib64/ruby/gems/2.6.0/gems/byebug-11.0.1/lib/byebug/remote/server.rb:43:in `start'
+/usr/lib64/ruby/gems/2.6.0/gems/byebug-11.0.1/lib/byebug/remote.rb:42:in `start_server'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/debugger.rb:133:in `start_server'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/debugger.rb:52:in `start'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/wfm.rb:268:in `handle_exception'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/wfm.rb:334:in `rescue in run_client'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/wfm.rb:315:in `run_client'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/wfm.rb:206:in `call_builtin'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/wfm.rb:206:in `call_builtin_wrapper'
+/usr/lib64/ruby/vendor_ruby/2.6.0/yast/wfm.rb:195:in `CallFunction'
+/usr/lib/YaST2/bin/y2start:62:in `<main>'

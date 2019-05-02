@@ -1,2 +1,3 @@
 require "y2hostname/clients/main"
-Y2hostname::Main.new.run
+
+Y2Hostname::Clients::Main.new.run
