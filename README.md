@@ -18,7 +18,7 @@ Getting the Sources
 
 To get the source code, clone the GitHub repository:
 
- $ https://github.com/SuseJose/yast-hostname
+	$ https://github.com/SuseJose/yast-hostname
 
 If you want to contribute into the project you can
 [fork](https://help.github.com/articles/fork-a-repo/) the repository and clone your fork.
