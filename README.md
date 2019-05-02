@@ -1,4 +1,4 @@
-YaST - CaaSP/Kubic Integration
+YaST Hostname Model
 ==============================
 
 [![Travis Build](https://travis-ci.org/yast/yast-caasp.svg?branch=master)](https://travis-ci.org/yast/yast-caasp)
