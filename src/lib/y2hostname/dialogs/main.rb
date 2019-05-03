@@ -20,10 +20,6 @@ module Y2Hostname
         )
       end
 
-      def help
-        "Esta es la ayuda del dialogo"
-      end
-
       def run
         ret = super
         while ret != :next do
@@ -36,6 +32,10 @@ module Y2Hostname
       
       def next_button
         _("Save")
+      end
+
+      def back_button
+        nil
       end
 
       def next_handler

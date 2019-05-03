@@ -33,6 +33,7 @@ BuildRequires:  yast2-installation >= 3.2.38
 Requires:       yast2-ntp-client   >= 4.0.3
 BuildRequires:  yast2-ntp-client   >= 4.0.3
 # parsing dhcp leases (ntp)
+
 Requires:       yast2-network   >= 4.1.11
 BuildRequires:  yast2-network   >= 4.1.11
 
@@ -42,7 +43,7 @@ BuildRequires:  rubygem(yast-rake) >= 0.2.13
 
 BuildArch:      noarch
 
-Summary:        YaST2 - CaaSP Module
+Summary:        YaST2 - Hostname  Module
 License:        GPL-2.0-only
 Group:          System/YaST
 Url:            https://github.com/JoseSuse/yast-hostname
